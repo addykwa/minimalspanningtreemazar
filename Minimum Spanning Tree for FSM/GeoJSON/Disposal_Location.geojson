@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Disposal_Location",
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "X": 67.096813, "Y": 36.751537, "Pl_Name": "Dasht Shor Disposal Site" }, "geometry": { "type": "Point", "coordinates": [ 67.096813, 36.751537 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "X": 67.044086, "Y": 36.672592, "Pl_Name": "Dehdaadi Disposal Site" }, "geometry": { "type": "Point", "coordinates": [ 67.044086, 36.672592 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "X": 67.208801, "Y": 36.683606, "Pl_Name": "Back side of German Comp and airport Site" }, "geometry": { "type": "Point", "coordinates": [ 67.208801, 36.683606 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "X": 67.241168, "Y": 36.724246, "Pl_Name": "Gore Mar Disposal Site" }, "geometry": { "type": "Point", "coordinates": [ 67.241168, 36.724246 ] } }
+]
+}

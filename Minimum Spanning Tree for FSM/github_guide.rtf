@@ -1,0 +1,112 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica-BoldOblique;
+\f3\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red155\green44\blue3;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;;\cssrgb\c1680\c19835\c100000;\cssrgb\c67803\c24280\c0;\cssrgb\c0\c0\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Hello Welcome to Group 10 Remote Repo( aka Urban Water Github)\
+\
+I\'92ve written a short step-by-step beginners manual on how to use git in the context of our group. \
+\
+This will be the basics on 
+\f1\b uploading and downloading of all current files,
+\f0\b0  how to read your log, status, as well as for \'93more advanced\'94 branching.\
+\
+
+\f1\b STEP ONE : UP TO DATE
+\f0\b0 \
+To retrieve files from Github, use:\
+
+\f1\b \cf2 git clone https://github.com/andreas3141/TechLabs_2020_21_Group10.git
+\f0\b0 \cf0  - this will copy the folder and it\'92s entire repo into your desired folder.\
+
+\f1\b \cf2 git pull\cf0  
+\f0\b0 - use this command if you already have an existing repository.\
+\
+Once you are up to date, you may add, edit, remove files from your local repository on your devices.\
+\
+
+\f1\b \cf2 git status
+\f0\b0 \cf0  - use this often to check if you have outstanding difference between your local and remote repository. By default, it should show \'93clean\'94.\
+\
+
+\f1\b \cf2 git log
+\f0\b0 \cf0  - this command will display all the previous commits from other members, so you can see what is going on in a nutshell.\
+\
+
+\f1\b STEP TWO : ADD / REMOVE /EDIT
+\f0\b0 \
+Once you add/change a file, you need to 
+\f1\b add 
+\f0\b0 and 
+\f1\b commit 
+\f0\b0 the changes with the following command.\
+
+\f1\b \cf2 git add 
+\f2\i name_of_your_file.ext\cf0  
+\f3\b0 - 
+\f0\i0 This adds your file into the repository. You must make sure your file is in the desired folder. MAKE SURE YOUR FILE NAME IS SIMPLE(MAKES OUR LIFE EASIER)
+\f3\i \
+
+\f1\i0\b \cf2 git rm 
+\f2\i name_of_your_file.ext\cf0  
+\f3\b0 \
+\
+
+\f1\i0\b STEP THREE : COMMIT
+\f3\i\b0 \
+
+\f0\i0 Then commit:
+\f2\i\b \
+
+\f1\i0 \cf2 git commit -m 
+\f2\i \'93type your message\'94\cf0  
+\f0\i0\b0 - please include what changes you did here so we can refer to it without asking you in person or through message. Every time you commit something, we see it in the log and we are able to \'93jump back in time to previous commit\'94. Technically.\
+\
+
+\f1\b STEP FOUR : PUSH/UPLOAD\
+\cf2 git push 
+\f0\b0 \cf0 - if all the steps above are done right, it will upload you changes and your repo will be current with the one on GitHub. If this doesn\'92t work, use GIT PULL again and repeat steps 1-3.
+\f1\b \
+\
+RESTARTING
+\f0\b0 \
+If something is showing an error, you can always delete the whole folder and use GIT CLONE again.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1\b \cf3 ***Optional***
+\f0\b0 \cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1\b \cf0 BRANCHING
+\f0\b0 \
+
+\f1\b \cf2 git branch 
+\f0\b0 \cf4 - this shows you a list of branch names!!! (Example we currently have 
+\f1\b master
+\f0\b0  and 
+\f1\b playground
+\f0\b0 ) \
+\
+
+\f1\b \cf2 git checkout -b 
+\f2\i name_of_branch 
+\f0\i0\b0 \cf4 - This 
+\f1\b adds a new branch
+\f0\b0  to our \'93workflow\'94. So if we wanted to make a new feature, say visualising or new country data without affecting the current work, we could play with the current settings in a new branch and if it works out, we can merge branch.\
+\
+
+\f1\b \cf2 git checkout 
+\f2\i name_of_branch 
+\f0\i0\b0 \cf4 - This 
+\f1\b switches between branches.
+\f0\b0 \cf0 \
+\
+\
+I hope this helps with the GitHub workflow.}
